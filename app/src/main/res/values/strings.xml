@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AlgoApp</string>
+    <string name="text_gravity">center</string>
+    <string name="maze_solve_button">Solve Maze</string>
+    <string name="random_maze_button">Generate Random Maze</string>
+</resources>

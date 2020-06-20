@@ -3,4 +3,9 @@
     <string name="text_gravity">center</string>
     <string name="maze_solve_button">Solve Maze</string>
     <string name="random_maze_button">Generate Random Maze</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_header">Algo App</string>
+    <string name="design_pattern_catalog">Design Pattern Catalog</string>
+    <string name="algorihms_catalog">Algorihms Catalog</string>
 </resources>

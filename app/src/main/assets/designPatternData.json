@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name":"Abstract Factory",
+    "type": "Creational",
+    "classDiagramUrl":"abstractFactory.png",
+    "intentDesc":"To create families of object"
+  },
+  {
+    "id": "2",
+    "name":"Adapter",
+    "type": "Structural",
+    "classDiagramUrl":"adapter.png",
+    "intentDesc":"To create families of object"
+  },
+  {
+    "id": "3",
+    "name":"State Pattern",
+    "type": "Behavioural",
+    "classDiagramUrl":"state.png",
+    "intentDesc":"To create families of object"
+  },
+  {
+    "id": "4",
+    "name":"Visitor",
+    "type": "Behavioural",
+    "classDiagramUrl":"visitor.png",
+    "intentDesc":"To create families of object"
+  }
+]

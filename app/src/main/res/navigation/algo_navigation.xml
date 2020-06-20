@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/algo_navigation"
+    app:startDestination="@id/algoListFragment">
+
+    <fragment
+        android:id="@+id/algoDetailsFragment"
+        android:name="com.example.algoapp.ui.algo.AlgoDetailsFragment"
+        android:label="fragment_algo_details"
+        tools:layout="@layout/fragment_algo_details" >
+        <argument
+            android:name="algoObject"
+            app:argType="com.example.algoapp.models.Algo" />
+    </fragment>
+    <fragment
+        android:id="@+id/algoListFragment"
+        android:name="com.example.algoapp.ui.algo.AlgoListFragment"
+        android:label="fragment_algo_list"
+        tools:layout="@layout/fragment_algo_list" >
+        <action
+            android:id="@+id/action_algoListFragment_to_algoDetailsFragment"
+            app:destination="@id/algoDetailsFragment" />
+        <action
+            android:id="@+id/action_algoListFragment_to_DFSFragment"
+            app:destination="@id/DFSFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DFSFragment"
+        android:name="com.example.algoapp.ui.algo.DFSFragment"
+        android:label="fragment_d_f_s"
+        tools:layout="@layout/fragment_d_f_s" />
+</navigation>

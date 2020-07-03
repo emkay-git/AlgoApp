@@ -7,3 +7,7 @@ It's a simple information app where you would find links and information on algo
 If you wish to contribute, get in touch.
 
 Here are some screenshots
+
+
+![alt text](https://github.com/emkay-git/AlgoApp/blob/master/algo_app.gif "App preview")
+
